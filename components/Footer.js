@@ -31,9 +31,10 @@ const styles = StyleSheet.create({
     right: 0,
   },
   progressBar: {
-    backgroundColor: "blue", // Color de la barra
+    backgroundColor: "green", // Color de la barra
     height: 18, // Ajusta la altura de la barra
     justifyContent: "center",
+    borderRadius: 12
   },
   progressBarText: {
     color: "white", // Color del texto

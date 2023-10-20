@@ -32,7 +32,7 @@ export const RegistroTareas = ({
               <Pressable
                 onPress={() => handelCambiar(tarea.id)}
                 style={{
-                  backgroundColor: "blue",
+                  backgroundColor: "#1693a5",
                   borderRadius: 10,
                   width: 200,
                   height: 20,
@@ -55,6 +55,7 @@ export const RegistroTareas = ({
 const styles = StyleSheet.create({
   container: {
     margin: 10,
+    top: 9
   },
   cardSuccess: {
     backgroundColor: "green",

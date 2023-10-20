@@ -27,7 +27,7 @@ export const FormularioTareas = ({
             />
             <Pressable
               onPress={handleSubmit}
-              style={{ backgroundColor: "green", borderRadius: 20, width:200, height:20 }}
+              style={{ backgroundColor: "#287e21", borderRadius: 20, width:200, height:20 }}
             >
               <Text style={{ color: "white", textAlign: "center" }}>
                 Agregar
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   card: {
-    backgroundColor: "black",
+    backgroundColor: "#0d0c0c",
     borderRadius: 8,
   },
   cardBody: {

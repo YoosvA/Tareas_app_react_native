@@ -17,7 +17,7 @@ export const Header = () => {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: "black", // Cambia el color de fondo según tus preferencias
+    backgroundColor: "#0d0c0c", // Cambia el color de fondo según tus preferencias
     boxShadow: "0 0 5px rgba(0, 0, 0, 0.27)",
     elevation: 6,
     height: "20%", // Esto permite que el componente ocupe todo el alto de la pantalla
